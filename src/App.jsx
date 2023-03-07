@@ -1,18 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-
-
-
-function ListadoMascotas(props){
-  return(
-    <div>
-      <div><img src={props.imagen} ></img></div>
-      <div><span>Nombre:</span><span>{props.nombre}</span></div>
-      <div><span>Edad:</span><span>{props.edad}</span></div>
-      <div><span>Raza:</span><span>{props.raza}</span></div>
-    </div>
-  )
-} 
+import ListadoMascotas from './componentes/ListadoMascotas';
 
 function App() {
   return (
